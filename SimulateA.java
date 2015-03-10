@@ -29,7 +29,7 @@ public class SimulateA {
 
 		double total = 0;
 		double currentPrice = ZEROPRICE;
-		for (int i = 0; i < 10; i++) {
+		for (int i = 0; i <= 10; i++) {
 			double thisyear = presentValue(i, currentPrice);
 			total += thisyear;
 			currentPrice = nextPrice(currentPrice);
