@@ -17,7 +17,7 @@ public class SimulateA {
 	public static double nextPrice(double current) {
 		double rnd = random.nextDouble();
 		double newP = 0;
-		if(rnd > prob) {
+		if(rnd < prob) {
 			newP = current * 1.4;
 		} else {
 			newP = current / 1.4;
